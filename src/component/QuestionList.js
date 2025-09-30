@@ -4,7 +4,7 @@ import './Quiz.css'
 const QuestionList = ({question,Option,handleclick,currentAnswer}) => {
   return (
     <div className='question-list'>
-        <h1 className='img'><img src='../images2.jpg'/> </h1>
+        <h1 className='img'><img src='../images2.jpg' alt="Question related"/> </h1>
       <h2>{question}</h2>
       <ul>
         {Option.map((option,index) => (
